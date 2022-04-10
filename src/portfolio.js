@@ -311,14 +311,14 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all",
-  email_address: "goh.hongaik@gmail.com"
+    "Discuss a project or just want to say hi? My Inbox is open for all"
+  
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "", //Replace "twitter" with your twitter username without @
   display: false // Set true to display this section, defaults to false
 };
 
