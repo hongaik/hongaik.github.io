@@ -210,12 +210,12 @@ const achievementSection = {
     {
       title: "Data Science Immersive Graduate",
       subtitle:
-        "The DSI is an intensive 6-month journey in Python for Data Science and Machine Learning, including concepts for model deployment.",
+        "DSI is an intensive 6-month journey in Python for Data Science and Machine Learning, including concepts for model deployment.",
       image: require("./assets/images/ga.png"),
       footerLink: [
         {
           name: "Certification",
-          url: "TBC"
+          url: "https://drive.google.com/file/d/13BJtELeLg_zIfnVNBvTj1myRZYqpiOvT/view?usp=sharing"
         }
       ]
     },
