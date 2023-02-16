@@ -23,7 +23,7 @@ const greeting = {
   username: "Hong Aik",
   title: "Hi all, I'm Hong Aik",
   subTitle: emoji(
-    "I'm a Senior Data Analyst working for the Ministry of Manpower in Singapore. Passionate with all things data, with an exceptional interest in NLP!"
+    "I'm a Senior Data Analyst working for the Ministry of Manpower in Singapore. Passionate in helping organisations improve efficiency, service delivery and decision making with data and tech!"
   ),
   resumeLink:
     "", // Set to empty to hide the button
@@ -46,7 +46,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "I specialise in helping stakeholders make data-driven decisions through interactive dashboards and machine learning",
+  subTitle: "I specialise in helping stakeholders transform their business problems into technical solutions through dashboards, models and applications!",
   skills: [
     //emoji(
     //  "⚡ "
@@ -121,15 +121,19 @@ const techStack = {
     },
     {
       Stack: "Machine Learning", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Natural Language Processing",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     },
     {
-      Stack: "Dashboarding",
-      progressPercentage: "70%"
+      Stack: "Dashboards",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Data Visualisation",
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -220,7 +224,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Exemplary MOMer Award",
+      title: "Exemplary MOMer Award (Innovation)",
       subtitle:
         "",
       image: require("./assets/images/mom.jpg")
@@ -234,6 +238,18 @@ const achievementSection = {
         {
           name: "Click to see the app",
           url: "https://huggingface.co/spaces/hongaik/service_text_classification"
+        }
+      ]
+    },
+    {
+      title: "Property Price Predictor App",
+      subtitle:
+        "Trained an XGB model to predict property prices and provide other useful details about the location too",
+      image: require("./assets/images/icon-hdb.png"),
+      footerLink: [
+        {
+          name: "Click to see the app",
+          url: "https://huggingface.co/spaces/hongaik/PropertyPricePredictor"
         }
       ]
     },
